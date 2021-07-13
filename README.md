@@ -2,6 +2,26 @@
 
 Curso de Angular
 
+## Gentil Introducion a Ts
+
+Para ejecutar un archivo de ts en **CMD**
+
+```cmd
+directorio/ tsc nombreArchivo
+```
+Este es un ejemplo de como pasar parametros a una funcion, de como accedemos un objeto
+```ts
+function saludar(nombre:string){
+    return nombre;
+}
+
+var wolverine = {
+    nom: 'Wolverine'
+};
+
+saludar(wolverine.nom);
+```
+
 ## Instalacion de Angular
 
 ```bash
@@ -50,4 +70,13 @@ import { AppComponent } from './components/app/app.component';
 })
 export class AppModule { }
 
+```
+## Componentes
+
+Es una parte espesifica que va a realizar una funcion espesifica en la web
+
+### Creacion de un componente 
+
+```cdm
+ng g c componets/nombreComponete 
 ```

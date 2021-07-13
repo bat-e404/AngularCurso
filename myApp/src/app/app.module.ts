@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './components/app/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 //Componentes
 
 import { AppComponent } from './components/app/app.component';
+import { HeaderComponent } from './components/header/header.component';
 
 //Servicios
 
 @NgModule({
  // Componentes y pipes
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   // Modulos
   imports: [
