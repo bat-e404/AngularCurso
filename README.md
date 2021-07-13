@@ -9,7 +9,7 @@ npm install -g @angular/cli
 ```
 
 ## Creacion de un nuevo proyecto
-```bash
+```cmd
 ng new MyApp
 cd MyApp
 ng serve
@@ -21,7 +21,7 @@ Cunado creamos un proyecto nuevo podemos crear una carpeta llamada components y 
 ## App.modulo.ts
 
 Este archivo esta conformado por varias partes del codigo que se deven saber
-```bash
+```ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
